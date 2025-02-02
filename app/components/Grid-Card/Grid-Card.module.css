@@ -1,0 +1,46 @@
+.card {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 12px;
+    padding: 1.5rem;
+    transition: all 0.3s ease;
+}
+
+.dark .card {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.imageContainer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.avatar {
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.content {
+    text-align: center;
+}
+
+.name {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+}
+
+.role {
+    color: #666;
+    margin-bottom: 0.75rem;
+}
+
+.bio {
+    font-size: 0.9rem;
+    color: #444;
+}
+
+.dark .role,
+.dark .bio {
+    color: #ccc;
+}
