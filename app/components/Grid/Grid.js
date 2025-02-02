@@ -1,6 +1,6 @@
 "use client";
 import { useEffect, useState } from "react";
-import GridCard from "../Grid-Card/grid-card"; // Corrected import path
+import GridCard from "../Grid-Card/Grid-Card";
 import styles from "./Grid.module.css";
 
 export default function Grid() {
